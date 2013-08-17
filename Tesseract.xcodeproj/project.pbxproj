@@ -42,14 +42,14 @@
 		0EAEFFC817BE5D500083A5FA /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
 		0ECE4486179D77260023BA45 /* Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
 		0ECE4487179D77260023BA45 /* Image.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Image.mm; sourceTree = "<group>"; };
-		17E5A60B146017E9004B1CA6 /* TesseractSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesseractSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E5A60B146017E9004B1CA6 /* Tesseract.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tesseract.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E5A60F146017E9004B1CA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		17E5A611146017E9004B1CA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17E5A613146017E9004B1CA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		17E5A617146017E9004B1CA6 /* TesseractSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TesseractSample-Info.plist"; sourceTree = "<group>"; };
+		17E5A617146017E9004B1CA6 /* Tesseract-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tesseract-Info.plist"; sourceTree = "<group>"; };
 		17E5A619146017E9004B1CA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17E5A61B146017E9004B1CA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		17E5A61D146017E9004B1CA6 /* TesseractSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TesseractSample-Prefix.pch"; sourceTree = "<group>"; };
+		17E5A61D146017E9004B1CA6 /* Tesseract-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tesseract-Prefix.pch"; sourceTree = "<group>"; };
 		17E5A61E146017E9004B1CA6 /* AppDelegate.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AppDelegate.hh; sourceTree = "<group>"; };
 		17E5A61F146017E9004B1CA6 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		17E5A621146017E9004B1CA6 /* ViewController.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ViewController.hh; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 		17E5A600146017E9004B1CA6 = {
 			isa = PBXGroup;
 			children = (
-				17E5A615146017E9004B1CA6 /* TesseractSample */,
+				17E5A615146017E9004B1CA6 /* Tesseract */,
 				17E5A60E146017E9004B1CA6 /* Frameworks */,
 				17E5A60C146017E9004B1CA6 /* Products */,
 			);
@@ -133,7 +133,7 @@
 		17E5A60C146017E9004B1CA6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17E5A60B146017E9004B1CA6 /* TesseractSample.app */,
+				17E5A60B146017E9004B1CA6 /* Tesseract.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		17E5A615146017E9004B1CA6 /* TesseractSample */ = {
+		17E5A615146017E9004B1CA6 /* Tesseract */ = {
 			isa = PBXGroup;
 			children = (
 				0ECE4486179D77260023BA45 /* Image.h */,
@@ -173,16 +173,17 @@
 				17E5A68E14601E0F004B1CA6 /* Lorem_Ipsum_Univers.png */,
 				17E5A616146017E9004B1CA6 /* Supporting Files */,
 			);
+			name = Tesseract;
 			path = TesseractSample;
 			sourceTree = "<group>";
 		};
 		17E5A616146017E9004B1CA6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				17E5A617146017E9004B1CA6 /* TesseractSample-Info.plist */,
+				17E5A617146017E9004B1CA6 /* Tesseract-Info.plist */,
 				17E5A618146017E9004B1CA6 /* InfoPlist.strings */,
 				17E5A61B146017E9004B1CA6 /* main.m */,
-				17E5A61D146017E9004B1CA6 /* TesseractSample-Prefix.pch */,
+				17E5A61D146017E9004B1CA6 /* Tesseract-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -282,9 +283,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		17E5A60A146017E9004B1CA6 /* TesseractSample */ = {
+		17E5A60A146017E9004B1CA6 /* Tesseract */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17E5A629146017EA004B1CA6 /* Build configuration list for PBXNativeTarget "TesseractSample" */;
+			buildConfigurationList = 17E5A629146017EA004B1CA6 /* Build configuration list for PBXNativeTarget "Tesseract" */;
 			buildPhases = (
 				17E5A607146017E9004B1CA6 /* Sources */,
 				17E5A608146017E9004B1CA6 /* Frameworks */,
@@ -294,9 +295,9 @@
 			);
 			dependencies = (
 			);
-			name = TesseractSample;
+			name = Tesseract;
 			productName = TesseractSample;
-			productReference = 17E5A60B146017E9004B1CA6 /* TesseractSample.app */;
+			productReference = 17E5A60B146017E9004B1CA6 /* Tesseract.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +308,7 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 			};
-			buildConfigurationList = 17E5A605146017E9004B1CA6 /* Build configuration list for PBXProject "TesseractSample" */;
+			buildConfigurationList = 17E5A605146017E9004B1CA6 /* Build configuration list for PBXProject "Tesseract" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -319,7 +320,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				17E5A60A146017E9004B1CA6 /* TesseractSample */,
+				17E5A60A146017E9004B1CA6 /* Tesseract */,
 			);
 		};
 /* End PBXProject section */
@@ -443,19 +444,19 @@
 					"\"$(SRCROOT)/../../../OpenCVlibstd\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TesseractSample/TesseractSample-Prefix.pch";
+				GCC_PREFIX_HEADER = "TesseractSample/Tesseract-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"${PODS_HEADERS_SEARCH_PATHS}",
 					"$(SRCROOT)",
 				);
-				INFOPLIST_FILE = "TesseractSample/TesseractSample-Info.plist";
+				INFOPLIST_FILE = "TesseractSample/Tesseract-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TesseractSample/build_dependencies/dependencies/lib\"",
 				);
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tesseract;
 				PROVISIONING_PROFILE = "B4A656EA-0A07-4CCB-A1E4-0AE6E48601FA";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -479,18 +480,18 @@
 					"\"$(SRCROOT)/../../../OpenCVlibstd\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TesseractSample/TesseractSample-Prefix.pch";
+				GCC_PREFIX_HEADER = "TesseractSample/Tesseract-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"${PODS_HEADERS_SEARCH_PATHS}",
 					"$(SRCROOT)",
 				);
-				INFOPLIST_FILE = "TesseractSample/TesseractSample-Info.plist";
+				INFOPLIST_FILE = "TesseractSample/Tesseract-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TesseractSample/build_dependencies/dependencies/lib\"",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tesseract;
 				PROVISIONING_PROFILE = "B4A656EA-0A07-4CCB-A1E4-0AE6E48601FA";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -502,7 +503,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17E5A605146017E9004B1CA6 /* Build configuration list for PBXProject "TesseractSample" */ = {
+		17E5A605146017E9004B1CA6 /* Build configuration list for PBXProject "Tesseract" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17E5A627146017E9004B1CA6 /* Debug */,
@@ -511,7 +512,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17E5A629146017EA004B1CA6 /* Build configuration list for PBXNativeTarget "TesseractSample" */ = {
+		17E5A629146017EA004B1CA6 /* Build configuration list for PBXNativeTarget "Tesseract" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17E5A62A146017EA004B1CA6 /* Debug */,
